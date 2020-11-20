@@ -33,16 +33,6 @@ namespace ToolBoxDemo
             Console.ReadLine();
 
 
-
-
-
-
-
-
-
-
-
-
             //Functions are methods written outside of a custom class.  Have 3 parts
             //Methods are functions written inside of a custom class.   Have 4 parts
 
@@ -56,14 +46,14 @@ namespace ToolBoxDemo
             void ClearConsole()
             {
             Console.Clear();
-            //Console.WriteLine("Congratulations! You've cleared the console!...hit ENTER to close the program");
             }
 
             void KeyToContinueWithClearConsole()
             {
             KeyToContinue();
             ClearConsole();
-
+            Console.WriteLine("Congratulations! You've cleared the console!...hit ENTER to close the program");
+            Console.ReadLine();
             }
         }
     }
